@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Online - Bakery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="navbar-logo">Gourmandise</div>
+            <ul class="navbar-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a href="#form">Contact</a></li>
+            </ul>
+            <div class="navbar-actions">
+                <button class="action-button">Join a Waitlist</button>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fas fa-search"></i></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="order-container">
+        <h1 class="order-heading">Order Online</h1>
+        <form id="order-form" class="order-form">
+            <div class="menu-items-grid">
+                <div class="menu-item">
+                    <label for="gulab-jamun">Gulab Jamun (₹500/kg)</label>
+                    <input type="number" id="gulab-jamun" name="gulab-jamun" placeholder="Quantity (kg)">
+                </div>
+                <div class="menu-item">
+                    <label for="rasgulla">Rasgulla (₹450/kg)</label>
+                    <input type="number" id="rasgulla" name="rasgulla" placeholder="Quantity (kg)">
+                </div>
+                <div class="menu-item">
+                    <label for="chocolate-cake">Chocolate Cake (₹600)</label>
+                    <input type="number" id="chocolate-cake" name="chocolate-cake" placeholder="Quantity">
+                </div>
+                <div class="menu-item">
+                    <label for="blueberry-muffin">Blueberry Muffin (₹80 each)</label>
+                    <input type="number" id="blueberry-muffin" name="blueberry-muffin" placeholder="Quantity">
+                </div>
+                <div class="menu-item">
+                    <label for="carrot-cake">Carrot Cake (₹550)</label>
+                    <input type="number" id="carrot-cake" name="carrot-cake" placeholder="Quantity">
+                </div>
+                <div class="menu-item">
+                    <label for="kaju-katli">Kaju Katli (₹700/kg)</label>
+                    <input type="number" id="kaju-katli" name="kaju-katli" placeholder="Quantity (kg)">
+                </div>
+                <div class="menu-item">
+                    <label for="strawberry-pastry">Strawberry Pastry (₹100 each)</label>
+                    <input type="number" id="strawberry-pastry" name="strawberry-pastry" placeholder="Quantity">
+                </div>
+                <div class="menu-item">
+                    <label for="besan-ladoo">Besan Ladoo (₹400/kg)</label>
+                    <input type="number" id="besan-ladoo" name="besan-ladoo" placeholder="Quantity (kg)">
+                </div>
+                <div class="menu-item">
+                    <label for="red-velvet-cake">Red Velvet Cake (₹650)</label>
+                    <input type="number" id="red-velvet-cake" name="red-velvet-cake" placeholder="Quantity">
+                </div>
+            </div>
+            <button type="submit" class="order-button">Place Order</button>
+        </form>
+    </main>
+
+    <footer>
+
+        <div class="footer-links">
+            <a href="order.html">Order online</a> |
+            <a href="#form">Contact</a> |
+            <a href="aboutus.html">About</a> |
+            <a href="menu.html">Menus</a> |
+        </div>
+        <div class="newsletter-signup">
+            <h2>Be in the know.</h2>
+            <p>Sign up and be the first to hear about new menu items, special promos, & more!</p>
+            <form id="form">
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+                <input type="email" placeholder="Email Address">
+                <button type="submit">Sign Up</button>
+            </form>
+            <p class="privacy-note">We respect your privacy.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
